@@ -21,7 +21,7 @@ public class L2021111858_6_Test {
 
         //示例1
         favoriteCompanies1.add(Arrays.asList("leetcode","google","facebook"));
-        favoriteCompanies1.add(Arrays.asList("google","microsoft"));
+        favoriteCompanies1.add(Arrays.asList("google"));
         favoriteCompanies1.add(Arrays.asList("google","facebook"));
         favoriteCompanies1.add(Arrays.asList("google"));
         favoriteCompanies1.add(Arrays.asList("amazon"));
@@ -30,7 +30,7 @@ public class L2021111858_6_Test {
         assertEquals(ans,Arrays.asList(0,1,4));
 
         //示例2
-        favoriteCompanies2.add(Arrays.asList("leetcode","google","facebook"));
+        favoriteCompanies2.add(Arrays.asList("leetcode","facebook"));
         favoriteCompanies2.add(Arrays.asList("leetcode","amazon"));
         favoriteCompanies2.add(Arrays.asList("facebook","google"));
         ans = sol.peopleIndexes(favoriteCompanies2);
